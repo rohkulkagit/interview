@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="chrome"/>
+  <test name="Test">
+  <parameter name="url" value="https://www.cleartrip.com/"/>
+    <classes>
+      <class name="interview.TestCasesSet1.LoginTests">
+      <methods>
+      	<include name="testmethod12"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
